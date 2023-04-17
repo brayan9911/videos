@@ -1,0 +1,66 @@
+
+<html lang="es">  
+  <head>    
+    <title>Formularios</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Formularios">
+    <meta name="description" content="Formularios">    
+    <link href="css/estilo.css" rel="stylesheet" type="text/css"/>    
+  </head>  
+  <body>    
+    <header>
+        <center>
+      <h1>Formularios</h1>      
+        </center>
+    </header>    
+    <nav>
+        <center>
+      
+      <a href="videos.html">VIDEOS Y AUDIO</a>&nbsp &nbsp
+      <a href="contac.html">CONTACTO</a>&nbsp &nbsp
+      <a href="form.html">FROM</a>&nbsp &nbsp	
+        </center>
+      </nav>
+ <br>
+    <section>      
+    <article>
+
+     <div>
+    
+
+<form action="recibir.php" method="get"  >
+<label>Nombres: <input type="text" required name="nombre" autofocus  ></label><br><br>
+<label>Apellidos: <input type="text" placeholder="Escribe los dos apellidos" name="ape" size="25" maxlength="15"></label><br><br>
+<label>Direccion donde vive: <input type="text"  name="Direccion" size="18" minlength="2"></label><br><br>
+<label>Casa o apartamento: <input  list="lista"></label><br><br>
+<datalist id="lista" >
+  <option value="Casa" >
+  <option value="Apto" >
+  
+</datalist>
+<label> Propia<input type="radio" name="Propia" value="h"><br> Arrendada<input type="radio" name="Arrendada" value="m"></label><br><br>
+<label>Barrio: <input type="number" name="numero" step="10"/></label><br><br>
+<label>Codigo Postal:<input type="number" name="edad" min="18" max="65" id="idEdad" ></label><br><br>
+<label>Situacion Sentimental: <input type="password" name="clave" ></label><br><br>
+<label>Fecha: <input type="date"  name="fecha" value="2020-10-21"  /></label><br><br>
+<label>Hora: <input type="time"  name="horaInicio" value="08:10"  /></label><br><br>
+<label>Correo electronico: <input type="email" name="correo" multiple ></label><br><br>
+<label>Celular: <input type="tel"  name="telefono" /></label><br><br>
+<label>nombre de contacto: <input type="search"  name="busqueda" /></label><br><br>
+<label> <textarea name="area" cols="40" rows="4" minlength="5" maxlength="200" >Tu opinion es importante para nosotros </textarea></label><br><br>
+<label><select name="pais">
+  <option value"es" > España</option>
+  <option value"mx" > México</option>
+  <option value"co" selected="selected"> Colombia</option>
+</select></label><br><br>
+<label><input type="checkbox" value"acepta" name="condiciones" checked="checked"> Acepto terminos y condiciones</label><br><br>
+<p> <input type="reset"  value="Borrar" /> </p>
+<p><input type="submit" value="Enviar"></p>
+</form>
+<br>
+ </div>
+ </article>
+</section>        
+</body>
+</html>
+

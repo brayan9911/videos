@@ -1,0 +1,23 @@
+body{
+	background-color:#03f7ff ;
+	font-family:'meonderthaw', cursive;
+	font-family: 'sedgwick ave', cursive;
+}
+
+form{
+	background-color: azure;
+	border-radius: 3px;
+	color: #999;
+	font-size: 0.8em;
+	padding: 20px;
+	margin: 0 auto;
+	width: 300px;
+}
+input, textarea{
+	border: solid 1px #ccc;
+	padding: 10px;
+	padding: 10px;
+	outline: none;
+	width: 280px;
+	border-color: #3371a3;
+}
